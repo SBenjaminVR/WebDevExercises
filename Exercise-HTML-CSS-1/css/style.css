@@ -1,0 +1,54 @@
+
+.btn-primary {
+  color: #fff;
+  background-color: #f4434c;
+  border-color: #ffffff;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #e92c36;
+  border-color: #ffffff;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+.main-header {
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+    padding: 5%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1%;
+    background-color: #282828;
+    color: white;
+    text-align: center;
+}
+
+.pink-elements {
+    background-color: #e96269;
+    color: white;
+}
+
+.text-box {
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Oswald', sans-serif;
+    border-width: medium;
+    border-color: #effb2c;
+    border-style: dotted;
+}
+
+.card {
+    color: #282828;
+}
+
+.h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}

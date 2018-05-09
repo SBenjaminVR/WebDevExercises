@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Girl Develop it</title>
+
+        <!--Stylesheets-->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--Imported fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        
+        <script src="js/bootstrap.js"></script>
+    </head>
+    <body>
+        <div class="text-center main-header">
+            <img src="images/mainlogoWhite.png" class ="img-fluid" alt="Don't be shy. Develop it">
+        </div>
+
+        <h1 class="text-center"><u>About</u></h1>
+        <p class="text-center text-box">It can be intimidating for woman to learn and ask questions when they are in an <b>extreme minority.</b> While open and welcoming, today's budding developer community is up to <b>91% male.</b>  If we can empower more females with the confidence in their technological capabilities we can begin to change this landscape</p>
+
+        <br>
+        
+        <div class="containter pink-elements">
+            <h1 class="text-center"><u>Our Locations</u></h1>
+            <br>
+            <h2 class="text-center"><i>United States</i></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center">New York</h2>
+                    <img src="/images/newYork.jpg" alt="New York" class="img-thumbnail img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center">Columbus</h2>
+                    <img src="/images/columbus.jpg" alt="Columbus" class="img-thumbnail img-fluid">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center">Austin</h2>
+                    <img src="/images/austin.jpg" alt="Austin" class="img-thumbnail img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center">Phylly</h2>
+                    <img src="/images/philly.jpg" alt="Phylly" class="img-thumbnail img-fluid">
+                </div>
+            </div>
+
+            <br><br>
+            <h2 class="text-center"> <i>World</i></h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="text-center">Ottawa</h2>
+                    <img src="/images/ottawa.jpg" alt="Ottawa" class="img-thumbnail img-fluid">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="text-center">Sydney</h2>
+                    <img src="/images/sydney.jpg" alt="Sydney" class="img-thumbnail img-fluid">
+                </div>
+            </div>
+        </div>
+
+        <br>
+        
+        <h1 class="text-center"><u>Upcoming Classes</u></h1> 
+        <br>
+
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Location</th>
+                    <th>Topic</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>New York</td>
+                <td>JavaScript & jQuery</td>
+            </tr>
+            <tr>
+                <td>San Francisco</td>
+                <td>HTML & CSS</td>
+            </tr>
+        </table>
+
+        <br>
+        <h1 class="text-center"><u>Sign Up!</u></h1>
+        <br>
+        <form>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="First name">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Last name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="form-group">
+                        <label for="inputEmail"> E-mail: </label>
+                        <input type="text" class="form-control" name="E-mail" size="35" placeholder="name@example.com">
+                        <small class="form-text text-muted">We'll never share your email with anyone else. </small>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col">
+                    <div class="form-group">
+                    <label for="enterLocation"> Location: </label>
+                        <select class = "form-control" name="location">
+                            <option value="newYork">New York</option>
+                            <option value="sanFrancisco">San Francisco</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-3 col">
+                    <div class="form-group">
+                        <label for="EnterGender"> Gender: </label>
+                        <br>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" value="option1">
+                            <label class="form-check-label" for="genderMale">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" value="option2">
+                            <label class="form-check-label" for="genderFemale">Female</label>
+                        </div>
+                </div>
+            </div>    
+
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="enterExperienceComments">Experience: </label> 
+                    <textarea name="experience" class="form-control" placeholder="Enter your comments..."></textarea>
+                </div>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-primary">Sign up</button>
+            </div>
+        </form>
+        
+
+
+        <br>
+
+        <div class="footer">
+            <button type="button" class="btn btn-link">Twitter</button>
+            <button type="button" class="btn btn-link">Facebook</button>
+            <button type="button" class="btn btn-link">Flickr</button>
+            <br>
+            <p><i>Created by Benjamin Valdez (2018)</i></p>
+        </div>
+    
+    </body>
+
+</html>
